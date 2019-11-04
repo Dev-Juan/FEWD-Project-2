@@ -1,0 +1,84 @@
+/* Base Styles */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    background: #f8fbfc;
+}
+
+.portfolio-img {
+    width: 100%;
+}
+
+.profile-img {
+    width: 70%;
+    margin-bottom: 25px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+
+/*  Base layout */
+
+.col {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Nav */
+.nav a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.nav li {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    background: white;
+    text-transform: uppercase;
+}
+
+
+
+
+/* Containers */
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer .footer {
+    display: inline-block;
+}
+
+
+
+
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+
+    .main-nav {
+        text-align: center;
+    }
+
+   
+    .main-nav li {
+        display: block;
+    
+
+    }
+}
