@@ -13,6 +13,10 @@ body {
     width: 100%;
 }
 
+h1 {
+    margin-top: 0;
+    padding-top: 20px;
+}
 
 h3 {
     font-weight: 400;
@@ -36,6 +40,14 @@ p {
 
 .titles {
     margin-bottom: 15px;
+}
+
+.col:hover {
+    background: black;
+}
+
+.col:hover .titles {
+    color: white;
 }
 
 .skills-para {
@@ -172,11 +184,65 @@ nav .container {
 
 @media (min-width: 768px) {
 
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
     
-}
+    h1 {
+        padding-top: 25px;
+    }
 
+    .nav li {
+        display: inline-block;
+    }
+  
+    .profile-img {
+        width: 35%;
+        float: right;
+    }
 
+    .banner-para {
+        width: 65%;
+        float: left;
+        text-align: left;
+    }
+            /* portfolio */
 
+    .col-container {
+        width: 100%;
+    }
 
+    .col {
+        width: 47%;
+        float: left;
+    }
+    
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 
+            /* Skills */
 
+    .skills li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 5px;
+    }
+
+    .skills li:hover {
+        border-bottom: .5px solid black;
+    }
+
+            /* Contact */
+
+    .phone:hover {
+        color: black;
+    }
+
+    .email:hover {
+        color: black;
+    }
+}   
