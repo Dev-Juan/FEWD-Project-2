@@ -1,4 +1,6 @@
-/* Base Styles */
+/* ==============================
+        Base Styles
+=================================*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -19,6 +21,7 @@ h3 {
 p {
     font-weight: 300;
     color: rgb(187, 176, 176);
+    font-family: Jomolhari, sans-serif;
 }
 
 .portfolio-img {
@@ -35,6 +38,15 @@ p {
     margin-bottom: 15px;
 }
 
+.skills-para {
+    margin-bottom: 15px;
+}
+
+.skills li {
+    list-style: circle;
+    color: rgb(177, 167, 167);
+}
+
 .contact a {
     text-decoration: none;
     color: rgb(177, 167, 167);
@@ -42,7 +54,7 @@ p {
 
 .footer-top a {
     text-decoration: none;
-    color: rgb(187, 176, 176);
+    color: black;
 }
 
 
@@ -51,7 +63,14 @@ p {
     margin-bottom: 10px;
 }
 
-/*  Base layout */
+.footer-name,
+.footer-top {
+    color: black;
+}
+
+/* ==============================
+        layout
+=================================*/
 
 .col {
    width: 100%;
@@ -72,11 +91,16 @@ p {
 }
 
 
-/* Nav */
+/* ==============================
+       Nav
+=================================*/
 .nav a {
     text-decoration: none;
     color: black;
-    
+}
+
+.nav a:hover {
+    color: white;
 }
 
 .nav li {
@@ -87,18 +111,31 @@ p {
     text-transform: uppercase;
 }
 
+.nav li:hover {
+    border: .3px solid white;
+    background: black;
+    color: white;
+}
+
+li:hover a {
+    color: inherit;
+}
+
 nav .container {
     padding-bottom: 20px;
     margin-bottom: 15px;
 }
 
+
+/* ==============================
+        Containers
+=================================*/
+
 .header-wrap {
     background: #f8fbfc;
+    padding-bottom: 30px;
 }
 
-
-
-/* Containers */
 
 
 .container {
@@ -129,7 +166,9 @@ nav .container {
     clear: both;
 }
 
-/* Media Queries */
+/* ==============================
+        Media Queries
+=================================*/
 
 @media (min-width: 768px) {
 
