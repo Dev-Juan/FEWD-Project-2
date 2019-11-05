@@ -85,7 +85,7 @@ p {
 =================================*/
 
 .col {
-   width: 100%;
+   width: 95%;
    padding: 10px 10px;
    margin: 10px;
 }
@@ -169,14 +169,7 @@ nav .container {
     background: #f8fbfc;
 }
 
-/* ==============================
-        ClearFix
-=================================*/
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
 
 /* ==============================
         Media Queries
@@ -245,4 +238,21 @@ nav .container {
     .email:hover {
         color: black;
     }
-}   
+    
+}
+
+
+@media (min-width: 1024px) {
+
+}
+
+
+
+/* ==============================
+        ClearFix
+=================================*/
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
