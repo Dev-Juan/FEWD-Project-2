@@ -80,6 +80,10 @@ p {
     color: black;
 }
 
+.footer-nav {
+    display: none;
+}
+
 /* ==============================
         layout
 =================================*/
@@ -239,6 +243,39 @@ nav .container {
     .email:hover {
         color: black;
     }
+
+                /* footer */
+    .footer-nav {
+        display: inline-block;
+    }
+
+    .footer-top {
+        display: none;
+    }
+
+    .footer-nav li{
+        display: inline-block;
+    }
+    
+    .footer-nav {
+        float: right;
+    }
+
+    .footer-nav a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+    }
+
+    .footer-nav li:hover {
+        border: .3px solid white;
+        background: black;
+        color: white;
+    }
+    
+    li:hover a {
+        color: inherit;
+    }
     
 }
 
@@ -255,7 +292,7 @@ nav .container {
         padding-top: 0;
     }
 
-    .nav li {
+    .nav {
         float: right;
     }
     
@@ -275,9 +312,34 @@ nav .container {
     .col {
         width: 31%;
     }        
+            /* footer */
+    .footer-top {
+        display: none;
+    }
 
+    .footer-nav li{
+        display: inline-block;
+    }
+    
+    .footer-nav {
+        float: right;
+    }
 
+    .footer-nav a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+    }
 
+    .footer-nav li:hover {
+        border: .3px solid white;
+        background: black;
+        color: white;
+    }
+    
+    li:hover a {
+        color: inherit;
+    }
 }
 
 
