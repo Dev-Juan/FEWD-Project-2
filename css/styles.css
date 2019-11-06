@@ -165,7 +165,8 @@ nav .container {
     padding: 15px;   
 }
 
-.wrap {
+.contact,
+.footer {
     background: #f8fbfc;
 }
 
@@ -243,6 +244,39 @@ nav .container {
 
 
 @media (min-width: 1024px) {
+    .main-nav .container {
+        width: 90%;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .name {
+        float: left;
+        padding-top: 0;
+    }
+
+    .nav li {
+        float: right;
+    }
+    
+    .profile-img {
+        clear: right;
+        margin-top: 20px;
+    }
+    
+    
+    
+    .banner-para {
+        font-size: 1.3em;
+    }
+
+            /* portfolio */
+
+    .col {
+        width: 31%;
+    }        
+
+
 
 }
 
